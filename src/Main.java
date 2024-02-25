@@ -6,6 +6,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         sc.useLocale(Locale.US);
 
+        System.out.println("Ввести цену билета (целое число):");
         int ticketPrice = sc.nextInt();
         int oneBonusAmount = 20;
 
